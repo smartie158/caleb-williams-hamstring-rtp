@@ -4,7 +4,7 @@
 
 This project evaluates the return-to-play timeline for Caleb Williams following a Grade 2 right hamstring strain during the 2026 NFL season.
 
-Rather than predicting an exact return date, I developed a two-stage analytical framework using historical NFL quarterback hamstring injuries.
+Rather than predicting an exact return date, I developed a two stage analytical framework using historical NFL quarterback hamstring injuries.
 
 ### Stage 1 — Will the Injury Cause a Missed Game?
 
@@ -65,7 +65,7 @@ The finalized model was then fit to the historical cohort and applied to Caleb W
 
 ### Stage 2 — Return-to-Play Analysis
 
-Because the number of clean historical return-to-play cases was small, Stage 2 did not fit a second machine-learning model. Instead, it used the observed distribution of games missed among quarterback hamstring injuries with identifiable returns to play.
+Because the number of clean historical return-to-play cases was small. Stage 2 did not fit a second machine learning model. Instead, it used the observed distribution of games missed among quarterback hamstring injuries with identifiable returns to play.
 
 Severity information was then used as a comparison layer rather than as a fitted predictor. Caleb's reported Grade 2 injury was compared with documented Grade 2 / moderate historical cases.
 
@@ -73,7 +73,7 @@ This produced a historically supported **1–2 missed-game window**, which was t
 
 ## Model Performance
 
-Because the historical dataset contains only 24 eligible injury episodes across 23 quarterbacks, model evaluation focused on out-of-sample performance while accounting for the small sample size.
+Because the historical dataset contains only 24 eligible injury episodes across 23 quarterbacks, model evaluation focused on an out of sample performance while accounting for the small sample size.
 
 The primary validation strategy was **leave-one-player-out cross-validation (LOPO)**. All episodes belonging to the held-out quarterback were excluded from training during each validation fold, reducing the risk of player-level information leaking between the training and validation sets.
 
