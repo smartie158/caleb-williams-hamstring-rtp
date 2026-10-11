@@ -42,7 +42,7 @@ This window should be interpreted as an exploratory historical estimate rather t
 
 ### Data Collection
 
-Historical NFL quarterback hamstring injury reports were combined with player statistics and NFL schedule data to construct individual injury episodes. Each episode was linked to scheduled games and player participation to determine whether the quarterback missed a game and, when observable, when the player returned.
+Historical NFL quarterback hamstring injury reports were combined with player statistics and NFL schedule data to construct individual injury episodes. Data used from 17 NFL Seasons (2009-2025). Each episode was linked to scheduled games and player participation to determine whether the quarterback missed a game and, when observable, when the player returned.
 
 The analysis was divided into two stages to separate two different questions:
 
